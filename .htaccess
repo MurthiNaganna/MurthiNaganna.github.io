@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST}  !^www\.murthinaganna\.com$ [NC]
+RewriteRule ^(.*) http://www.murthinaganna.com/$1 [L,R]
